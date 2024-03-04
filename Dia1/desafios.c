@@ -30,7 +30,8 @@ int main (void){
 
 //---------------------------------------------------------------------------------------------------
 //Questão  3
-    string Players[4] = ["Mairo","Carlos","José","Drausio","João","Luzinho"];
+    string Players[4] = ["Mairo","Carlos","José",
+                        "Drausio","João","Luzinho"];
     for(int i=0; i<5; i++)
     {
         cout << Players[i];
@@ -72,5 +73,13 @@ int main (void){
         }
     }
     return isPrime;
+    if(isPrime)
+    {
+        cout << "Número primo";
+    }
+    else
+    {
+        cout << "Número não primo";
+    }
 
 }
