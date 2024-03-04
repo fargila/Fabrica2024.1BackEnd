@@ -23,13 +23,13 @@ int main (void){
     cout << "\nA sua idade é: " << x;
 
 //---------------------------------------------------------------------------------------------------
-//Questão  3
+//Questão  2
     int n1=4, n2=5, n3=3, n4=1, n5=7;
     float mediaTurma = (n1+n2+n3+n4+n5)/5;
     cout >> mediaTurma;
 
 //---------------------------------------------------------------------------------------------------
-//Questão  4
+//Questão  3
     string Players[4] = ["Mairo","Carlos","José","Drausio","João","Luzinho"];
     for(int i=0; i<5; i++)
     {
