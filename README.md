@@ -1,13 +1,13 @@
 # Fabrica2024.1BackEnd
-# python manage.py runserver
-# python manage.py migrate 
-# python manage.py createsuperuser
-# django-admin startapp meuprimeiroapp
-# jango-admin startproject ProjetoDia3 .
-# pip install django djangorestframework 
+# python -m venv venv 
 # ./venv/Scripts/activate
 # Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned
-# pyhton -m venv venv  s
+# pip install django djangorestframework 
+# django-admin startproject [Nome_do_projeto] .
+# django-admin startapp [Nome_do_App]
+# Aquivo 'settings.py' -> INSTALLED APPS -> ['rest_framework', 'Nome_do_App']
+# python manage.py createsuperuser
+# python manage.py migrate 
 # python manage.py makemigrations    
-# Consumir uma API 
+# python manage.py runserver
 # pip install request
