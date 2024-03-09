@@ -5,6 +5,7 @@
 <p>Método para adicionar um nova atividade. Se a atividade for nova, ele adiciona ela para o banco, se não, informa ao usuário que está atividade já foi adicionada.</p>
 <h3>def buscarAtiv</h3>
 <p>De acordo com uma consulta fornecida pelo o usuário, vai realizar uma consulta e renderizar o resultado na página "busca.html"</p>
+--------------------------------------------------------------------------------------------------------------------------------- 
 
 <h1>./templates/home.html</h1>
 <h3>Adiciona uma ideia por meio de um formulário para aninhar ao meu banco de dados local</h3>
