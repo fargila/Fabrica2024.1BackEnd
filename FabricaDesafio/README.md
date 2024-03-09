@@ -14,3 +14,5 @@
 
 <h1>./templates/add.html</h1>
 <h3>Página para adicionar uma ideia por meio de um formulário para aninhar ao meu banco de dados local.</h3>
+
+P.S.: infelizmente não consegui fazer o programa rodar :/
