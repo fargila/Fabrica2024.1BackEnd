@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Busca</title>
+</head>
+<body>
+    <h1>Procurar ideia no banco de dados</h1>
+    <form>
+        <input type="text" name="query">
+        <button type="submit">Buscar</button>
+    </form>
+
+    {% if results %}
+    <h2>Resultado</h2>
+    <ul>
+        {% for i in results %}
+        <li>Atividade: {{i.activity}}</li>
+        <li>Tipo: {{i.type}}</li>
+        <li>Participantes: {{i.participants}}</li>
+        <li>Preço: {{i.price}}</li>
+        <li>Link: {{i.link}}</li>
+        <li>Chave: {{i.key}}</li>
+        <li>Acessibilidade: {{i.acessibility}}</li>
+        {% endfor %}
+    </ul>
+    {% endif %}
+</body>
+</html>

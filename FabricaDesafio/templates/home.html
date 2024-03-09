@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista</title>
+</head>
+<body>
+    <h1>Ideias para o tédio</h1>
+    {% for i in data %}
+        <ul>
+            <li>
+                {{i.activity}}
+                {{i.type}}
+                {{i.participants}}
+                {{i.price}}
+                {{i.link}}
+                {{i.key}}
+                {{i.acessibility}}
+            </li>
+        </ul>
+    {% endfor %}
+</body>
+</html>
