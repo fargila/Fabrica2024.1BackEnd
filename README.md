@@ -1,5 +1,5 @@
 <h1><b>AVISO:</b> o desafio da fábrica para ser avaliado está dentro da pasta "FabricaDesafio", dento dela, também há um outro arquivo README.md, documentando o processo. OS arquivos restantes correspondem a que foi trabalhado nos outros dias da semana de <i>Workshop</i>.</h1>
- ----------------------------------------------------------------------------------------------------------------------------------
+ ---------------------------------------------------------------------------------------------------------------------------------
 <h2>Lista de Comandos ensinados no <i>Workshop</i></h2>
 <ul>
   <li>python -m venv venv </li>
